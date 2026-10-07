@@ -6,7 +6,7 @@
 - Affiliations: Graduate School of Culture Technology, KAIST · Neutune
 - Paper: TBD
 - Models: [STEMMA-MF2601](https://huggingface.co/hoyso48/STEMMA-MF2601) · [STEMMA-MOSS-Music](https://huggingface.co/hoyso48/STEMMA-MOSS-Music)
-- Benchmark: STEMMA-Bench (Hugging Face link TBD; QA annotations only, CC BY-NC-SA 4.0)
+- Benchmark: STEMMA-Bench (TBD)
 
 ## Overview
 
@@ -106,10 +106,10 @@ Each average weights the columns of the main table equally within its group. Par
 
 Both models are full fine-tunes (not LoRA adapters) on STEMMA-Instruct. Each Hugging Face repository includes native Transformers/PyTorch inference code, an API reference, and examples.
 
-| Model | Base model | Weight license |
-|---|---|---|
-| [hoyso48/STEMMA-MF2601](https://huggingface.co/hoyso48/STEMMA-MF2601) | [nvidia/music-flamingo-2601-hf](https://huggingface.co/nvidia/music-flamingo-2601-hf) | NVIDIA OneWay Noncommercial (academic, noncommercial use only) |
-| [hoyso48/STEMMA-MOSS-Music](https://huggingface.co/hoyso48/STEMMA-MOSS-Music) | [OpenMOSS-Team/MOSS-Music-8B-Instruct](https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct) | Apache-2.0 |
+| Model | Base model |
+|---|---|
+| [hoyso48/STEMMA-MF2601](https://huggingface.co/hoyso48/STEMMA-MF2601) | [nvidia/music-flamingo-2601-hf](https://huggingface.co/nvidia/music-flamingo-2601-hf) |
+| [hoyso48/STEMMA-MOSS-Music](https://huggingface.co/hoyso48/STEMMA-MOSS-Music) | [OpenMOSS-Team/MOSS-Music-8B-Instruct](https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct) |
 
 Quick start (see each model card for details):
 
@@ -126,9 +126,9 @@ Compare A and B.'
 
 ## License
 
-- Code in this repository: Apache-2.0 (see [LICENSE](LICENSE)).
-- Model weights follow the license of each model listed above.
-- STEMMA-Bench: CC BY-NC-SA 4.0 (QA annotations only; audio not included). The benchmark is intended for research use. Obtain the source audio from MUSDB18, MedleyDB, and MoisesDB through their official channels under their own licenses.
+- Code: Apache-2.0 ([LICENSE](LICENSE))
+- Models: see each model card
+- STEMMA-Bench: CC BY-NC-SA 4.0
 
 ## Citation
 
